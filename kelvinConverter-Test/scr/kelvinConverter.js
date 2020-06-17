@@ -5,6 +5,4 @@ const kelvinConverter = (kelvin) => {
 return Math.floor((kelvin -273.15)*9/5+32)
 };
 
-//const hello = () => 'hello';
-
 module.exports = kelvinConverter;
