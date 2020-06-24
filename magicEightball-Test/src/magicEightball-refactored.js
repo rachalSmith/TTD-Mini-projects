@@ -1,4 +1,4 @@
-//ToDo: test for each function
+//TODO: test for each function
 
 
 let userName = '';
@@ -31,7 +31,7 @@ eightBallAnswer = () => {
     } else if (randomNumber === 2) {
         return 'WE CAN ONLY PRAY...';
     } else if (randomNumber === 3) {
-        return 'IT DID ONCE, 2006.';
+        return 'IT DID ONCE, IN 2006.';
     } else {
         return 'JUST INVEST IN A GOOD UMBRELLA AND STOP COMPLAINING.';
     }
@@ -42,3 +42,6 @@ console.log(formatUserQuestion(defaultName, 'Will it ever stop raining in Manche
 
 
 console.log(`Eight ball says: ${eightBallAnswer()}`);
+
+module.exports = formatUserQuestion;
+module.exports = eightBallAnswer;
